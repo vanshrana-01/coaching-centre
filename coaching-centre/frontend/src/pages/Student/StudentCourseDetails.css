@@ -1,0 +1,11 @@
+.student-course-details { padding: 30px; }
+.student-course-hero { background: #fff; border-radius: 16px; padding: 30px; margin-bottom: 30px; border: 1px solid #e5e7eb; }
+.student-course-hero h1 { margin: 0 0 12px; }
+.student-course-hero p { color: #6b7280; line-height: 1.6; }
+.student-course-meta { display: flex; flex-wrap: wrap; gap: 15px; margin-top: 20px; }
+.student-course-meta span { background: #f3f4f6; padding: 9px 14px; border-radius: 8px; }
+.student-course-assignments h2 { margin-bottom: 20px; }
+.student-assignment-list { display: grid; gap: 16px; }
+.student-assignment-card, .student-empty-box { background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 20px; }
+.student-assignment-card h3 { margin: 0 0 8px; }
+.student-assignment-card p { color: #6b7280; }

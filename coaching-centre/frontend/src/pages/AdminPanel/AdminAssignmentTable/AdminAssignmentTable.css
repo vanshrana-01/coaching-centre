@@ -1,0 +1,73 @@
+.admin-assignment-table-wrapper {
+  background: white;
+  border-radius: 12px;
+  overflow-x: auto;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.admin-assignment-table {
+  width: 100%;
+  min-width: 1000px;
+  border-collapse: collapse;
+}
+
+.admin-assignment-table th,
+.admin-assignment-table td {
+  padding: 17px;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.admin-assignment-table th {
+  background: #f8fafc;
+  color: #475569;
+  font-size: 14px;
+}
+
+.admin-assignment-table td {
+  color: #475569;
+}
+
+/* Status */
+
+.assignment-status {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.assignment-status.active {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.assignment-status.closed {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+/* Buttons */
+
+.admin-assignment-table button {
+  border: none;
+  padding: 7px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.view-btn {
+  background: #2563eb;
+  color: white;
+}
+
+.edit-btn {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+.delete-btn {
+  background: #fee2e2;
+  color: #b91c1c;
+}

@@ -1,0 +1,44 @@
+.header{
+    height: 80px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+.topbar-left h2{
+    color: #0f172a;
+}
+.topbar-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.topbar-right input{
+    width: 280px;
+    padding: 10px 15px;
+    border: 1px solid #1dd5db;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.notificaction-btn{
+    width: 42px;
+    height: 42px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #f1f5f9;
+    font-family: 18px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

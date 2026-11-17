@@ -1,0 +1,80 @@
+.navbar{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8fafc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px 60px;
+}
+.nav-logo h2{
+    font-size: 28px;
+    color: #0f172A;
+    font-weight: 700;
+
+}
+span{
+    color: #2563eb;
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nav-menu li{
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    
+
+}
+.nav-menu li:hover{
+    color: #f97316;
+}
+.nav-menu li:active{
+    font-weight: 600;
+
+}
+.nav-btn{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.login-btn{
+    background-color: white;
+    color: #2563eb;
+    border: 2px solid #2563eb;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s;
+    cursor: pointer;
+
+
+}
+.login-btn:hover{
+    transform: scale(1.05);
+    color: white;
+    background-color: #2563eb;
+    font-weight: 500;
+}
+.registor-btn{
+    background-color: #2563eb;
+    color: white;
+    border: 2px solid #2563eb;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s;
+    cursor: pointer;
+
+
+}
+.registor-btn:hover{
+    transform: scale(1.05);
+    color: #2563eb;
+    background-color: white;
+    font-weight: 500;
+}

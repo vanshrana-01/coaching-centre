@@ -1,0 +1,15 @@
+/* teacher-layout */
+.teacher-layout{
+    display: flex;
+    min-height: 100vh;
+    background-color: #f8fafc;
+}
+.teacher-main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.teacher-content{
+    flex: 1;
+    padding: 30px;
+}

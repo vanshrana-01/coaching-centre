@@ -1,0 +1,32 @@
+.admin-table{
+  width:100%;
+  border-collapse:collapse;
+  background:white;
+  border-radius:12px;
+  overflow:hidden;
+}
+
+.admin-table th,
+.admin-table td{
+  padding:16px;
+  border-bottom:1px solid #e5e7eb;
+  text-align:left;
+}
+
+.active{
+  color:#16a34a;
+  font-weight:600;
+}
+
+.inactive{
+  color:#dc2626;
+  font-weight:600;
+}
+
+.admin-table button{
+  margin-right:8px;
+  padding:6px 12px;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+}

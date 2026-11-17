@@ -1,0 +1,158 @@
+
+/* =========================
+   PROFILE CARD
+========================= */
+
+.profile-card {
+  width: 100%;
+  max-width: 450px;
+  margin: 30px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.profile-card h2 {
+  color: #1e293b;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.profile-card h3 {
+  color: #1e293b;
+  font-size: 22px;
+  margin: 15px 0;
+}
+
+/* =========================
+   PROFILE IMAGE
+========================= */
+
+.profile-image-container {
+  width: 140px;
+  height: 140px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #2563eb;
+  background: #f1f5f9;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* =========================
+   PROFILE INFORMATION
+========================= */
+
+.profile-card p {
+  color: #64748b;
+  font-size: 14px;
+  margin: 12px 0;
+  overflow-wrap: anywhere;
+}
+
+.profile-card p strong {
+  color: #334155;
+}
+
+/* =========================
+   IMAGE UPLOAD
+========================= */
+
+.profile-upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.profile-upload label {
+  display: inline-block;
+  background: #2563eb;
+  color: #ffffff;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.profile-upload label:hover {
+  background: #1d4ed8;
+}
+
+.profile-upload input[type="file"] {
+  display: block;
+  width: 100%;
+  max-width: 280px;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: #f8fafc;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+
+.selected-file {
+  font-size: 13px;
+  color: #475569;
+  overflow-wrap: anywhere;
+}
+
+/* =========================
+   UPLOAD BUTTON
+========================= */
+
+.upload-btn {
+  width: 100%;
+  max-width: 200px;
+  background: #16a34a;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.upload-btn:hover {
+  background: #15803d;
+}
+
+.upload-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 500px) {
+  .profile-card {
+    margin: 15px auto;
+    padding: 22px 15px;
+  }
+
+  .profile-card h2 {
+    font-size: 21px;
+  }
+
+  .profile-image-container {
+    width: 120px;
+    height: 120px;
+  }
+}

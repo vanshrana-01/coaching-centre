@@ -1,0 +1,64 @@
+.admin-sidebar {
+  width: 250px;
+  height: 100vh;
+  background: #0f172a;
+  color: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.admin-logo {
+  padding: 10px 10px 25px;
+  border-bottom: 1px solid #334155;
+}
+
+.admin-logo h2 {
+  margin: 0;
+  font-size: 21px;
+}
+
+.admin-nav {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 100px);
+  padding-top: 20px;
+}
+
+.admin-nav a,
+.admin-logout {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 13px 15px;
+  margin-bottom: 6px;
+  border-radius: 8px;
+  color: #cbd5e1;
+  text-decoration: none;
+  border: none;
+  background: transparent;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.admin-nav a:hover,
+.admin-logout:hover {
+  background: #1e293b;
+  color: white;
+}
+
+.admin-nav a.active {
+  background: #2563eb;
+  color: white;
+}
+
+.admin-nav-bottom {
+  margin-top: auto;
+}
+
+.admin-logout {
+  width: 100%;
+}

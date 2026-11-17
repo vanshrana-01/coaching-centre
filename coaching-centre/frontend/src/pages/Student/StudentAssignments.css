@@ -1,0 +1,239 @@
+.student-assignments-page {
+  min-height: 100vh;
+  padding: 40px;
+  background: #f5f7fb;
+}
+
+
+/* ================= HEADER ================= */
+
+.student-assignments-header {
+  margin-bottom: 30px;
+}
+
+.student-assignments-header h1 {
+  margin: 0;
+  color: #1f2937;
+}
+
+.student-assignments-header p {
+  color: #6b7280;
+  margin-top: 8px;
+}
+
+
+/* ================= LIST ================= */
+
+.student-assignments-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+/* ================= CARD ================= */
+
+.student-assignment-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.07);
+}
+
+.student-assignment-card h2 {
+  margin-top: 0;
+  color: #1f2937;
+}
+
+
+/* ================= DESCRIPTION ================= */
+
+.assignment-description {
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+
+/* ================= INFO ================= */
+
+.assignment-info {
+  display: flex;
+  gap: 30px;
+  margin: 20px 0;
+  color: #4b5563;
+}
+
+
+/* ================= TEXTAREA ================= */
+
+.student-assignment-card textarea {
+  width: 100%;
+  min-height: 150px;
+  box-sizing: border-box;
+
+  padding: 15px;
+
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+
+  resize: vertical;
+
+  font-size: 15px;
+
+  outline: none;
+}
+
+.student-assignment-card textarea:focus {
+  border-color: #2563eb;
+}
+
+
+/* ================= SUBMIT BUTTON ================= */
+
+.student-assignment-card button {
+  margin-top: 15px;
+
+  padding: 12px 20px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #2563eb;
+  color: white;
+
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.student-assignment-card button:hover {
+  background: #1d4ed8;
+}
+
+.student-assignment-card button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+
+/* ================= STATUS BOX ================= */
+
+.submission-status-box {
+  margin-top: 20px;
+
+  padding: 18px;
+
+  background: #f9fafb;
+
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 20px;
+}
+
+
+/* ================= SUBMITTED ================= */
+
+.submitted-label {
+  display: block;
+
+  color: #15803d;
+
+  font-weight: 700;
+}
+
+.submission-status-box p {
+  margin: 7px 0 0;
+
+  color: #6b7280;
+
+  font-size: 14px;
+}
+
+
+/* ================= CHECKED ================= */
+
+.checked-label {
+  padding: 8px 14px;
+
+  border-radius: 20px;
+
+  background: #dcfce7;
+
+  color: #166534;
+
+  font-weight: 600;
+}
+
+
+/* ================= WAITING ================= */
+
+.waiting-label {
+  padding: 8px 14px;
+
+  border-radius: 20px;
+
+  background: #fef3c7;
+
+  color: #92400e;
+
+  font-weight: 600;
+}
+
+
+/* ================= NO ASSIGNMENTS ================= */
+
+.no-student-assignments {
+  background: white;
+
+  padding: 50px;
+
+  text-align: center;
+
+  border-radius: 12px;
+}
+
+.no-student-assignments h2 {
+  color: #374151;
+}
+
+.no-student-assignments p {
+  color: #6b7280;
+}
+
+
+/* ================= LOADING ================= */
+
+.loading-box {
+  background: white;
+
+  padding: 50px;
+
+  text-align: center;
+
+  border-radius: 12px;
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+
+  .student-assignments-page {
+    padding: 20px;
+  }
+
+  .assignment-info {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .submission-status-box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+}
